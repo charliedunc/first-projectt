@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template There are 3 programs in this project, each on their own branch
-Console.WriteLine("Hello, Worlddd!");
+﻿#include <iostream>
+using namespace std;
+int main()
+{
+    char first, middle, last;
+    first = 'C';
+    middle = 'R';
+    last = 'D';
+    cout << first << middle << last;
+    return 0;
+}
